@@ -1,0 +1,13 @@
+version: "5.0"
+
+services:
+  api-dev-blog:
+    container_name: api-dev-blog
+    image: api-dev-blog
+    environment:
+      - PORT=5000
+    ports:
+      - 8080:8080
+    build:
+      context: .
+      dockerfile: Dockerfile
