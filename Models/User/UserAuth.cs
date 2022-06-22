@@ -1,16 +1,12 @@
 using System.ComponentModel.DataAnnotations;
-using MongoDB.Bson.Serialization.Attributes;
 
 namespace blog_api_dev.Models.User
 {
   public class UserAuth
   {
-    [Required]
+    [Required(ErrorMessage = "Preencha o seu nickname")]
     public string nickname { get; set; }
-    [Required]
+    [Required(ErrorMessage = "Preencha sua senha")]
     public string password { get; set; }
-    [Required]
-    [BsonIgnore]
-    public string confirmPassword { get; set; }
   }
 }

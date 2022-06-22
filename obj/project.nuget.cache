@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "XYggO+ppJvoC9lsuoFpXStZccHkLGs3YMFU/qno2B+4dGKIdmv6zGvDkSSvNIlAcZf5HIIHbSBzhhrw13aNMBg==",
+  "dgSpecHash": "MG299CURQD8bCntjB1kMvih+GTTuj3zwFv27EdDnoIHVC3hECD49zKXZLyUekJfiYOzke/YLRVac5EiTpPHGDQ==",
   "success": true,
   "projectFilePath": "C:\\Blog\\blog-api-dev\\blog-api-dev.csproj",
   "expectedPackageFiles": [
@@ -18,7 +18,7 @@
     "C:\\Users\\Mario\\.nuget\\packages\\microsoft.entityframeworkcore.abstractions\\5.0.10\\microsoft.entityframeworkcore.abstractions.5.0.10.nupkg.sha512",
     "C:\\Users\\Mario\\.nuget\\packages\\microsoft.entityframeworkcore.analyzers\\5.0.10\\microsoft.entityframeworkcore.analyzers.5.0.10.nupkg.sha512",
     "C:\\Users\\Mario\\.nuget\\packages\\microsoft.entityframeworkcore.design\\5.0.0\\microsoft.entityframeworkcore.design.5.0.0.nupkg.sha512",
-    "C:\\Users\\Mario\\.nuget\\packages\\microsoft.entityframeworkcore.relational\\5.0.0\\microsoft.entityframeworkcore.relational.5.0.0.nupkg.sha512",
+    "C:\\Users\\Mario\\.nuget\\packages\\microsoft.entityframeworkcore.relational\\5.0.6\\microsoft.entityframeworkcore.relational.5.0.6.nupkg.sha512",
     "C:\\Users\\Mario\\.nuget\\packages\\microsoft.extensions.apidescription.server\\3.0.0\\microsoft.extensions.apidescription.server.3.0.0.nupkg.sha512",
     "C:\\Users\\Mario\\.nuget\\packages\\microsoft.extensions.caching.abstractions\\5.0.0\\microsoft.extensions.caching.abstractions.5.0.0.nupkg.sha512",
     "C:\\Users\\Mario\\.nuget\\packages\\microsoft.extensions.caching.memory\\5.0.0\\microsoft.extensions.caching.memory.5.0.0.nupkg.sha512",
@@ -43,6 +43,8 @@
     "C:\\Users\\Mario\\.nuget\\packages\\mongodb.libmongocrypt\\1.3.0\\mongodb.libmongocrypt.1.3.0.nupkg.sha512",
     "C:\\Users\\Mario\\.nuget\\packages\\newtonsoft.json\\12.0.2\\newtonsoft.json.12.0.2.nupkg.sha512",
     "C:\\Users\\Mario\\.nuget\\packages\\newtonsoft.json.bson\\1.0.2\\newtonsoft.json.bson.1.0.2.nupkg.sha512",
+    "C:\\Users\\Mario\\.nuget\\packages\\npgsql\\5.0.5\\npgsql.5.0.5.nupkg.sha512",
+    "C:\\Users\\Mario\\.nuget\\packages\\npgsql.entityframeworkcore.postgresql\\5.0.6\\npgsql.entityframeworkcore.postgresql.5.0.6.nupkg.sha512",
     "C:\\Users\\Mario\\.nuget\\packages\\sharpcompress\\0.30.1\\sharpcompress.0.30.1.nupkg.sha512",
     "C:\\Users\\Mario\\.nuget\\packages\\swashbuckle.aspnetcore\\5.6.3\\swashbuckle.aspnetcore.5.6.3.nupkg.sha512",
     "C:\\Users\\Mario\\.nuget\\packages\\swashbuckle.aspnetcore.swagger\\5.6.3\\swashbuckle.aspnetcore.swagger.5.6.3.nupkg.sha512",

@@ -68,3 +68,5 @@ C:\Blog\blog-api-dev\bin\Debug\net5.0\Microsoft.Extensions.DependencyInjection.d
 C:\Blog\blog-api-dev\bin\Debug\net5.0\System.Diagnostics.DiagnosticSource.dll
 C:\Blog\blog-api-dev\obj\Debug\net5.0\blog-api-dev.csproj.AssemblyReference.cache
 C:\Blog\blog-api-dev\obj\Debug\net5.0\refint\blog-api-dev.dll
+C:\Blog\blog-api-dev\bin\Debug\net5.0\Npgsql.dll
+C:\Blog\blog-api-dev\bin\Debug\net5.0\Npgsql.EntityFrameworkCore.PostgreSQL.dll

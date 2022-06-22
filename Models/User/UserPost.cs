@@ -1,17 +1,21 @@
 using System;
 using System.ComponentModel.DataAnnotations;
+using System.Text.Json.Serialization;
 
 namespace blog_api_dev.Models.User
 {
     public class UserPost
     {
-        [Required]
+        [Required(ErrorMessage = "Preencha o seu Nome")]
+        [MaxLength(30)]
         public string name { get; set; }
-        [Required]
+        [Required(ErrorMessage = "Preencha seu Nickname")]
+        [MaxLength(30)]
         public string nickname { get; set; }
-        [Required]
-        public string password { get; set; }
-        [Required]
-        public DateTime dateCreated { get; set; } = DateTime.Now;
+        public string password_post { get; set; }
+        [JsonIgnore]
+        public byte[] password { get; set; }
+        [JsonIgnore]
+        public byte[] password_key { get; set; }
     }
 }

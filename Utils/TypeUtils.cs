@@ -10,24 +10,45 @@ namespace blog_api_dev.Utils
 {
     public static class TypeUtils
     {
-        public static JsonResult ReturnTypeResponseHTTP(bool success = true, Exception ex = null)
+        public static JsonResult ReturnTypeResponseHTTP(bool success = true, Exception ex = null, string msg = null)
         {
-            if (success)
+            if (success && string.IsNullOrEmpty(msg))
             {
                 return new JsonResult(new {
                     status = true,
                     code = 200,
                     message = ResponseHTTP.HTTP_200
                 });
-            } else {
-                var exception = ex as Win32Exception;
+            } else if (success && !string.IsNullOrEmpty(msg)) {
                 return new JsonResult(new {
-                    status = false,
-                    code = exception.ErrorCode,
-                    message = ex.Message,
-                    inner = ex.InnerException.Message
+                    status = true,
+                    code = 200,
+                    message = msg
                 });
+            } else {
+                if (ex != null) {
+                    var exception = ex as Win32Exception;
+                    return new JsonResult(new {
+                        status = false,
+                        code = exception.ErrorCode,
+                        message = ex.Message,
+                        inner = ex.InnerException.Message
+                    });
+                } else {
+                    return new JsonResult(new {
+                        status = false,
+                        code = 400,
+                        message = msg
+                    });
+                }
             }
+        }
+
+        public static JsonResult ReturnTypeResponseHTTP(string msg = null)
+        {
+            return new JsonResult(new {
+                message = msg
+            });
         }
 
         public static T como<T>(this object obj, bool enableException = false, T defaultValue = default(T))
